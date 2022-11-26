@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.alotus.com.cn/wall2/</loc>
+    <lastmod>2022-11-26</lastmod>
+  </url>
+  <url>
     <loc>https://www.alotus.com.cn/jiyichengzai/</loc>
     <lastmod>2022-11-12</lastmod>
   </url>
@@ -15,10 +19,6 @@
   <url>
     <loc>https://www.alotus.com.cn/goods/</loc>
     <lastmod>2022-11-08</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alotus.com.cn/wall2/</loc>
-    <lastmod>2022-11-06</lastmod>
   </url>
   <url>
     <loc>https://www.alotus.com.cn/221102-jiyichengzai/</loc>
