@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.alotus.com.cn/221204-jiyichengzai/</loc>
+    <loc>https://www.alotus.com.cn/wall3/</loc>
+    <lastmod>2022-12-09</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alotus.com.cn/wall2/</loc>
     <lastmod>2022-12-03</lastmod>
   </url>
   <url>
-    <loc>https://www.alotus.com.cn/wall3/</loc>
-    <lastmod>2022-11-26</lastmod>
+    <loc>https://www.alotus.com.cn/wall/</loc>
+    <lastmod>2022-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alotus.com.cn/221204-jiyichengzai/</loc>
+    <lastmod>2022-12-03</lastmod>
   </url>
   <url>
     <loc>https://www.alotus.com.cn/jiyichengzai/</loc>
@@ -131,13 +139,5 @@
   <url>
     <loc>https://www.alotus.com.cn/211205-jiyichengzai/</loc>
     <lastmod>2021-12-05</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alotus.com.cn/wall2/</loc>
-    <lastmod>2018-11-26</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alotus.com.cn/wall/</loc>
-    <lastmod>2018-02-18</lastmod>
   </url>
 </urlset> 
