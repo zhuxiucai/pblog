@@ -193,7 +193,7 @@
     <link href="/wall2/"/>
     <url>/wall2/</url>
     
-    <content type="html"><![CDATA[<p>#sticky: 100<br>title: 【翻墙】小众梯子🪜机场🛩推荐🚀，免费和高性价比各取所需<br>category: 墙<br>date: 2018-02-18 19:35:13<br>updated: 2018-11-26 14:45:55<br>keywords: 翻墙, 饿饭cc云地址, 饿饭cc云官网, 飞数flyint官网<br>description: 饿饭cc云官网，飞数flyint官网，现在小众稳定的翻墙机场，越来越珍贵，且用且珍惜。以下几个梯子都比较小众，不容易被盯上，不怕封。</p><p>#【记得去config.yml修改encrypt】</p><p>redirect: wall3<br>#因为221203被bing墙，通过 hexo-generator-alias ,把上面redirect: wall3 去掉注释，跳转到新页面wall3。然后把原文的sticky注释掉，updated时间改老一点，这样就会存在于文章列表的最后了。<br>#搜索引擎把老的wall(x)墙了，就上最新的wall(x+1)。而手工到处贴的链接则永远不变，还是wall，访问后自动重定向到上面配置的wall(x+1)。</p>]]></content>
+    <content type="html"><![CDATA[<p>#sticky: 100<br>title: 【翻墙】小众梯子🪜机场🛩推荐🚀，免费和高性价比各取所需<br>category: 墙<br>date: 2018-02-18 19:35:13<br>updated: 2018-02-18 19:35:13<br>keywords: 翻墙, 饿饭cc云地址, 饿饭cc云官网, 飞数flyint官网<br>description: 饿饭cc云官网，飞数flyint官网，现在小众稳定的翻墙机场，越来越珍贵，且用且珍惜。以下几个梯子都比较小众，不容易被盯上，不怕封。</p><p>#【记得去config.yml修改encrypt】</p><p>redirect: wall3<br>#因为221203被bing墙，通过 hexo-generator-alias ,把上面redirect: wall3 去掉注释，跳转到新页面wall3。然后把原文的sticky注释掉，updated时间改老一点，这样就会存在于文章列表的最后了。<br>#搜索引擎把老的wall(x)墙了，就上最新的wall(x+1)。而手工到处贴的链接则永远不变，还是wall，访问后自动重定向到上面配置的wall(x+1)。</p>]]></content>
     
     
     
