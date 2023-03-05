@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.alotus.com.cn/wall4/</loc>
+    <lastmod>2023-03-05</lastmod>
+  </url>
+  <url>
     <loc>https://www.alotus.com.cn/slipbox/</loc>
     <lastmod>2023-02-25</lastmod>
   </url>
   <url>
     <loc>https://www.alotus.com.cn/jiyichengzai/</loc>
-    <lastmod>2023-02-19</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alotus.com.cn/wall4/</loc>
     <lastmod>2023-02-19</lastmod>
   </url>
   <url>
@@ -21,11 +21,11 @@
     <lastmod>2023-01-31</lastmod>
   </url>
   <url>
-    <loc>https://www.alotus.com.cn/230101-jiyichengzai/</loc>
+    <loc>https://www.alotus.com.cn/230111-jiyichengzai/</loc>
     <lastmod>2023-01-04</lastmod>
   </url>
   <url>
-    <loc>https://www.alotus.com.cn/230111-jiyichengzai/</loc>
+    <loc>https://www.alotus.com.cn/230101-jiyichengzai/</loc>
     <lastmod>2023-01-04</lastmod>
   </url>
   <url>
