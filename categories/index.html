@@ -61,7 +61,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"www.alotus.com.cn","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":false,"baidu":"e444d77efc07b320d725f05409460d18","google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":{"id":"JbYXq9DQpsmnjGDK","ck":"JbYXq9DQpsmnjGDK"},"cnzz":null,"leancloud":{"app_id":"HxQq61UtJoWvdmjksCW3RNY4-gzGzoHsz","app_key":"6jVjrW0Sd9CAlxMhpzrnn7Gt","server_url":"https://hxqq61ut.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":true}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"www.alotus.com.cn","root":"/","version":"1.9.4","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":false,"baidu":"e444d77efc07b320d725f05409460d18","google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":{"id":"JbYXq9DQpsmnjGDK","ck":"JbYXq9DQpsmnjGDK"},"cnzz":null,"leancloud":{"app_id":"HxQq61UtJoWvdmjksCW3RNY4-gzGzoHsz","app_key":"6jVjrW0Sd9CAlxMhpzrnn7Gt","server_url":"https://hxqq61ut.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":true}},"search_path":"/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -97,10 +97,9 @@
     <!-- 51.la Analytics -->
     <script async>
       if (!Fluid.ctx.dnt) {
-        !function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"JbYXq9DQpsmnjGDK",ck:"JbYXq9DQpsmnjGDK",autoTrack:true});
+        Fluid.utils.createScript('//js.users.51.la/[object Object].js');
       }
     </script>
-
   
 
   
@@ -143,7 +142,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/">
                 <i class="iconfont icon-home-fill"></i>
-                首页
+                <span>首页</span>
               </a>
             </li>
           
@@ -155,7 +154,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/categories/">
                 <i class="iconfont icon-category-fill"></i>
-                分类
+                <span>分类</span>
               </a>
             </li>
           
@@ -167,7 +166,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/tags/">
                 <i class="iconfont icon-tags-fill"></i>
-                标签
+                <span>标签</span>
               </a>
             </li>
           
@@ -179,7 +178,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/about/">
                 <i class="iconfont icon-user-fill"></i>
-                关于
+                <span>关于</span>
               </a>
             </li>
           
@@ -187,14 +186,16 @@
         
           <li class="nav-item" id="search-btn">
             <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
-              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+              <i class="iconfont icon-search"></i>
             </a>
           </li>
           
         
         
           <li class="nav-item" id="color-toggle-btn">
-            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
           </li>
         
       </ul>
@@ -463,9 +464,9 @@
     
       
       
-        <a href="/wall/" title="【翻墙】高性价比的小众梯子" class="list-group-item list-group-item-action
+        <a href="/wall4/" title="【翻墙】小众梯子🪜和机场🛩🚀，免费和性价比" class="list-group-item list-group-item-action
            ">
-          <span class="category-post">【翻墙】高性价比的小众梯子</span>
+          <span class="category-post">【翻墙】小众梯子🪜和机场🛩🚀，免费和性价比</span>
         </a>
       
     
@@ -479,9 +480,9 @@
     
       
       
-        <a href="/wall4/" title="【翻墙】小众梯子🪜和机场🛩🚀，免费和性价比" class="list-group-item list-group-item-action
+        <a href="/wall/" title="【翻墙】高性价比的小众梯子" class="list-group-item list-group-item-action
            ">
-          <span class="category-post">【翻墙】小众梯子🪜和机场🛩🚀，免费和性价比</span>
+          <span class="category-post">【翻墙】高性价比的小众梯子</span>
         </a>
       
     
