@@ -71,7 +71,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"www.alotus.com.cn","root":"/","version":"1.9.4","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":false,"baidu":"e444d77efc07b320d725f05409460d18","google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":{"id":"JbYXq9DQpsmnjGDK","ck":"JbYXq9DQpsmnjGDK"},"cnzz":null,"leancloud":{"app_id":"HxQq61UtJoWvdmjksCW3RNY4-gzGzoHsz","app_key":"6jVjrW0Sd9CAlxMhpzrnn7Gt","server_url":"https://hxqq61ut.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":true}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"www.alotus.com.cn","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":false,"baidu":"e444d77efc07b320d725f05409460d18","google":null,"tencent":{"sid":null,"cid":null},"woyaola":{"id":"JbYXq9DQpsmnjGDK","ck":"JbYXq9DQpsmnjGDK"},"cnzz":null,"leancloud":{"app_id":"HxQq61UtJoWvdmjksCW3RNY4-gzGzoHsz","app_key":"6jVjrW0Sd9CAlxMhpzrnn7Gt","server_url":"https://hxqq61ut.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":true},"gtag":null},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -102,17 +102,15 @@
   
 
   
-
-  
     <!-- 51.la Analytics -->
     <script async>
       if (!Fluid.ctx.dnt) {
-        !function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"JbYXq9DQpsmnjGDK",ck:"JbYXq9DQpsmnjGDK",autoTrack:true});
+        Fluid.utils.createScript('//js.users.51.la/[object Object].js');
       }
     </script>
-
   
 
+  
 
   
     
@@ -121,7 +119,7 @@
 
 
   
-<meta name="generator" content="Hexo 6.3.0"></head>
+<meta name="generator" content="Hexo 7.0.0"></head>
 
 
 <body>
@@ -150,7 +148,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/">
+              <a class="nav-link" href="/" target="_self">
                 <i class="iconfont icon-home-fill"></i>
                 <span>首页</span>
               </a>
@@ -162,7 +160,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/categories/">
+              <a class="nav-link" href="/categories/" target="_self">
                 <i class="iconfont icon-category-fill"></i>
                 <span>分类</span>
               </a>
@@ -174,7 +172,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/tags/">
+              <a class="nav-link" href="/tags/" target="_self">
                 <i class="iconfont icon-tags-fill"></i>
                 <span>标签</span>
               </a>
@@ -186,7 +184,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/about/">
+              <a class="nav-link" href="/about/" target="_self">
                 <i class="iconfont icon-user-fill"></i>
                 <span>关于</span>
               </a>
@@ -245,7 +243,7 @@
         <i class="iconfont icon-chart"></i>
         
           <!-- compatible with older versions-->
-          全文 428 字
+          全文 285 字
         
       </span>
     
@@ -257,7 +255,7 @@
         
         
           <!-- compatible with older versions-->
-          读完需要 2 分钟
+          读完需要 1 分钟
         
       </span>
     
@@ -302,13 +300,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <!-- SEO header -->
-            <h1 style="display: none">【Colube】从现在开始你未来十年的知识管理系统</h1>
+            <h1 id="seo-header">【Colube】从现在开始你未来十年的知识管理系统</h1>
             
-              <p class="note note-info">
+              <p id="updated-time" class="note note-info" style>
                 
                   
-                    本文最后更新于：2023年5月28日 凌晨
+                    本文最后更新于 2023年5月28日 凌晨
                   
                 
               </p>
@@ -330,9 +327,7 @@
 <h2 id="官方邀请码"><a href="#官方邀请码" class="headerlink" title="官方邀请码"></a>官方邀请码</h2><p>输入这个码，可以得到30天会员：<strong>colube官方邀请码</strong></p>
 <h2 id="Colube官网"><a href="#Colube官网" class="headerlink" title="Colube官网"></a>Colube官网</h2><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://colube.cn/">https://colube.cn/</a></p>
 <hr>
-<p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://alotus.com.cn/wall/?utm_source=slipbox">点此查看更多梯子</a><br><a target="_blank" rel="external nofollow noopener noreferrer" href="https://alotus.com.cn/categories/?utm_source=slipbox">点此查看更多付费内容</a></p>
-<hr>
-
+<h2 id="点此查看更多梯子点此查看更多付费内容"><a href="#点此查看更多梯子点此查看更多付费内容" class="headerlink" title="点此查看更多梯子点此查看更多付费内容"></a><a target="_blank" rel="external nofollow noopener noreferrer" href="https://alotus.com.cn/wall/?utm_source=slipbox">点此查看更多梯子</a><br><a target="_blank" rel="external nofollow noopener noreferrer" href="https://alotus.com.cn/categories/?utm_source=slipbox">点此查看更多付费内容</a></h2>
                 
               </div>
             
@@ -378,7 +373,7 @@
             
               
               
-                <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/" rel="external nofollow noopener noreferrer">
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/" rel="external nofollow noopener noreferrer">
                   <span class="hint--top hint--rounded" aria-label="BY - 署名">
                     <i class="iconfont icon-by"></i>
                   </span>
@@ -403,8 +398,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/slipbox/" title="卢曼亲自写的卡片盒用法介绍：与卡片盒交流（1981）">
-                        <span class="hidden-mobile">卢曼亲自写的卡片盒用法介绍：与卡片盒交流（1981）</span>
+                      <a href="/jiyichengzai/" title="碧树西风：记忆承载公众号付费文章一览">
+                        <span class="hidden-mobile">碧树西风：记忆承载公众号付费文章一览</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -429,9 +424,11 @@
             el: '#twikoo',
             path: 'window.location.pathname',
             onCommentLoaded: function() {
-              var imgSelector = '#twikoo .tk-content img:not(.tk-owo-emotion)';
-              Fluid.plugins.imageCaption(imgSelector);
-              Fluid.plugins.fancyBox(imgSelector);
+              Fluid.utils.listenDOMLoaded(function() {
+                var imgSelector = '#twikoo .tk-content img:not(.tk-owo-emotion)';
+                Fluid.plugins.imageCaption(imgSelector);
+                Fluid.plugins.fancyBox(imgSelector);
+              });
             }
           }
         )
