@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.alotus.com.cn/wall4/</loc>
+    
+    <lastmod>2023-12-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.alotus.com.cn/colube/</loc>
     
     <lastmod>2023-12-20</lastmod>
@@ -41,15 +50,6 @@
     <loc>https://www.alotus.com.cn/about/index.html</loc>
     
     <lastmod>2023-05-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.alotus.com.cn/wall4/</loc>
-    
-    <lastmod>2023-04-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://www.alotus.com.cn/230101-jiyichengzai/</loc>
+    <loc>https://www.alotus.com.cn/230111-jiyichengzai/</loc>
     
     <lastmod>2023-01-04</lastmod>
     
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://www.alotus.com.cn/230111-jiyichengzai/</loc>
+    <loc>https://www.alotus.com.cn/230101-jiyichengzai/</loc>
     
     <lastmod>2023-01-04</lastmod>
     
@@ -458,13 +458,6 @@
   
   <url>
     <loc>https://www.alotus.com.cn/categories/%E4%BB%98%E8%B4%B9/</loc>
-    <lastmod>2023-12-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.alotus.com.cn/categories/%E5%A2%99/</loc>
     <lastmod>2023-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
