@@ -84,4 +84,23 @@
 <p><a href="https://alotus.com.cn/categories/?utm_source=wall">点此查看更多内容</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>【Colube】加密分享</title>
+    <url>/colubesharepwd/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误，请仔细阅读解密指南（获取方式在页面底部）。" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="f5be913d69203a760dec75f39fd7c6497f7e52272a3fc983ff0fa776254e2cd6">ad998248dcb3a98304535cfe28295c424a33f701ac1671a9be1d28fd92c9b362a9769134ee9e8b4b0be0c20ad30a868109b57973f2355ca5b712e64148d252a4488ee934123ce7bdd5a3fc33c18cf8190f7ee71fcb6b6266ce07549ba0c21ba1a59b8911d259697c3f370b4d2aec749affdfe91a04e8c58dc55089e5a4099e134b68083608a4ba845eea2169f19b2e6e851e11e56c1f2f5632a07034826e400eb59523938c49f9433b80d8e0d10959d60c1904c4babf8529fb077a3f71351f7382c61589bdfb0bf16d1ad595bfec3df441cf0f44cae019230eda8f0731c50207c831dfd051abcf29921952463d08fe89</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">点此输入密码（获取滑到页底）</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>colube</category>
+      </categories>
+  </entry>
 </search>
