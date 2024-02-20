@@ -2,18 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.alotus.com.cn/colubesharepwd/</loc>
+    <loc>https://www.alotus.com.cn/mefosharepwd/</loc>
     
-    <lastmod>2024-02-07</lastmod>
+    <lastmod>2024-02-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.alotus.com.cn/colube/</loc>
+    <loc>https://www.alotus.com.cn/mefoshare/</loc>
     
-    <lastmod>2024-01-29</lastmod>
+    <lastmod>2024-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.alotus.com.cn/mefo/</loc>
+    
+    <lastmod>2024-02-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -30,15 +39,6 @@
   
   <url>
     <loc>https://www.alotus.com.cn/slipbox/</loc>
-    
-    <lastmod>2023-12-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.alotus.com.cn/colubeshare/</loc>
     
     <lastmod>2023-12-23</lastmod>
     
@@ -76,7 +76,7 @@
 
   <url>
     <loc>https://www.alotus.com.cn/</loc>
-    <lastmod>2024-02-07</lastmod>
+    <lastmod>2024-02-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,14 +84,14 @@
   
   <url>
     <loc>https://www.alotus.com.cn/tags/%E8%AE%B0%E5%BF%86%E6%89%BF%E8%BD%BD/</loc>
-    <lastmod>2024-02-07</lastmod>
+    <lastmod>2024-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.alotus.com.cn/tags/%E7%A2%A7%E6%A0%91%E8%A5%BF%E9%A3%8E/</loc>
-    <lastmod>2024-02-07</lastmod>
+    <lastmod>2024-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -99,15 +99,15 @@
 
   
   <url>
-    <loc>https://www.alotus.com.cn/categories/colube/</loc>
-    <lastmod>2024-02-07</lastmod>
+    <loc>https://www.alotus.com.cn/categories/%E4%BB%98%E8%B4%B9/</loc>
+    <lastmod>2024-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.alotus.com.cn/categories/%E4%BB%98%E8%B4%B9/</loc>
-    <lastmod>2024-02-07</lastmod>
+    <loc>https://www.alotus.com.cn/categories/mefo/</loc>
+    <lastmod>2024-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
